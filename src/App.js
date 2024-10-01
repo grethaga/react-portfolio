@@ -21,7 +21,7 @@ function App() {
       <Footer />
       <div class="footer-text">
         This project was coded by Gretha Gall and is
-        <a href="https://github.com/grethaga">open-sourced on GitHub</a>
+        <a href="https://github.com/grethaga"> open-sourced on GitHub</a>
       </div>
     </div>
   );

@@ -1,20 +1,26 @@
-footer {
+.footer {
   text-align: center;
   margin-top: 100px;
 }
 
 .social-links i {
   margin: 0 8px;
-  color: var(--secondary-color);
-  background-color: #fff8f8;
+  color: var(--primary-color);
+  background-color: #f4efea;
   padding: 10px;
   border-radius: 50px;
 }
 
 .contact-box {
-  background-color: #fff8f8;
+  background-color: #f4efea;
   padding: 30px 70px;
   border-radius: 8px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
 }
 
 .email-link:hover {

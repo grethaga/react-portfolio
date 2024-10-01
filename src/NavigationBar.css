@@ -5,6 +5,11 @@
   --default-font-family: "Libre Baskerville", serif;
 }
 
+.nav-bar {
+  margin: 0;
+  padding: 0;
+}
+
 nav li {
   display: inline;
   list-style: none;
@@ -31,7 +36,7 @@ nav a:hover,
   color: var(--secondary-color);
 }
 
-h3 {
+.custom-heading {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;

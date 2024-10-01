@@ -1,0 +1,36 @@
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.social-links i {
+  margin: 0 8px;
+  color: var(--secondary-color);
+  background-color: #fff8f8;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.contact-box {
+  background-color: #fff8f8;
+  padding: 30px 70px;
+  border-radius: 8px;
+}
+
+.email-link:hover {
+  color: var(--secondary-color);
+}
+
+.footer .contact-btn {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.footer .contact-btn:hover {
+  border: 1.5px solid var(--secondary-color);
+}
+
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+}

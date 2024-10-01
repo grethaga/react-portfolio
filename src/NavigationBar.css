@@ -1,0 +1,41 @@
+:root {
+  --primary-color: rgb(52, 55, 60);
+  --secondary-color: #990000;
+  --heading-font-family: "Raleway", sans-serif;
+  --default-font-family: "Libre Baskerville", serif;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 38px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+nav a:hover,
+.email-link:hover {
+  color: var(--secondary-color);
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin: 25px 0;
+}

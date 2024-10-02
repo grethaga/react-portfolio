@@ -21,8 +21,20 @@ export default function Footer() {
           gretha.gall@gmail.com
         </a>
         <div className="social-links mt-4">
-          <i class="fa-brands fa-linkedin"></i>
-          <i className="fab fa-github"></i>
+          <a
+            href="https://www.linkedin.com/in/gretha-gall-6815ba328/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/grethaga"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
       </div>
     </div>

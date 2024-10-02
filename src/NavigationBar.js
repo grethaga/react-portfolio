@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavigationBar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavigationBar() {
   return (
@@ -11,16 +11,48 @@ export default function NavigationBar() {
         </h3>
         <ul className="list-unstyled d-flex">
           <li className="me-1">
-            <Link to="/home">Home</Link>
+            <NavLink
+              to="/home"
+              style={({ isActive }) => ({
+                color: isActive ? "rgb(52, 55, 60)" : "rgb(52, 55, 60)",
+                fontWeight: isActive ? "bold" : "normal",
+              })}
+            >
+              Home
+            </NavLink>
           </li>
           <li className="me-1">
-            <Link to="/about">About</Link>
+            <NavLink
+              to="/about"
+              style={({ isActive }) => ({
+                color: isActive ? "rgb(52, 55, 60)" : "rgb(52, 55, 60)",
+                fontWeight: isActive ? "bold" : "normal",
+              })}
+            >
+              About
+            </NavLink>
           </li>
           <li className="me-1">
-            <Link to="/work">Work</Link>
+            <NavLink
+              to="/work"
+              style={({ isActive }) => ({
+                color: isActive ? "rgb(52, 55, 60)" : "rgb(52, 55, 60)",
+                fontWeight: isActive ? "bold" : "normal",
+              })}
+            >
+              Work
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink
+              to="/contact"
+              style={({ isActive }) => ({
+                color: isActive ? "rgb(52, 55, 60)" : "rgb(52, 55, 60)",
+                fontWeight: isActive ? "bold" : "normal",
+              })}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -11,9 +12,9 @@ export default function Footer() {
             <p className="text-muted mb-0">Let's work togheter</p>
           </div>
           <div className="mt-3">
-            <a href="/contact.html" className="btn contact-btn">
+            <Link to="/contact" className="btn contact-btn">
               contact me
-            </a>
+            </Link>
           </div>
         </div>
 

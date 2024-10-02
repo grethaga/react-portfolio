@@ -20,7 +20,7 @@ h1 {
   color: var(--primary-color);
 }
 
-h3 {
+.Work h3 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;

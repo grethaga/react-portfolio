@@ -40,3 +40,19 @@ h4 {
   font-family: var(--heading-font-family);
   font-size: 28px;
 }
+
+.container .footer .contact-btn {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 25px;
+  border: 1.5px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: #f4efea;
+}
+
+.container .footer .contact-btn:hover {
+  color: var(--secondary-color);
+  border: 1.5px solid var(--secondary-color);
+  background-color: #f4efea;
+}

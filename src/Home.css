@@ -30,13 +30,13 @@ p {
   font-style: normal;
   line-height: 25px;
   border: 1.5px solid var(--secondary-color);
-  background-color: var(--secondary-color);
-  color: white;
+  color: var(--secondary-color);
 }
 
 .Home .contact-btn:hover {
-  color: var(--secondary-color);
+  color: #fbf8f5;
   border: 1.5px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .custom-heading {

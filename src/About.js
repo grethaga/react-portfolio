@@ -21,7 +21,11 @@ function About() {
           </Link>
         </div>
         <div class="col d-none d-sm-block">
-          <img class="profile-img img-fluid" src="images/Profilbild.jpg" />
+          <img
+            class="profile-img img-fluid"
+            src="images/Profilbild.jpg"
+            alt="Gretha Gall"
+          />
         </div>
       </div>
       <Footer />

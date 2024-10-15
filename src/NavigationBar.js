@@ -12,7 +12,7 @@ export default function NavigationBar() {
         <ul className="list-unstyled d-flex">
           <li className="me-1">
             <NavLink
-              to="/home"
+              to="/"
               style={({ isActive }) => ({
                 color: isActive ? "rgb(52, 55, 60)" : "rgb(52, 55, 60)",
                 fontWeight: isActive ? "bold" : "normal",

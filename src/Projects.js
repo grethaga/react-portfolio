@@ -9,11 +9,17 @@ export default function Projects() {
     <div className="container">
       <div className="row">
         <div className="col-sm">
-          <img
-            src={weather}
-            className="img-fluid d-none d-sm-block"
-            alt="Weather App"
-          />
+          <a
+            href="https://api-weather-project.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={weather}
+              className="img-fluid d-none d-sm-block project-img"
+              alt="Weather App"
+            />
+          </a>
           <div className="project-description d-block d-sm-none">
             <h2>Weather App</h2>
             <p>
@@ -34,7 +40,7 @@ export default function Projects() {
             className="img-fluid d-none d-sm-block"
             alt="world-clock project"
           />
-          <div className="project-description d-block d-sm-none">
+          <div className="project-description d-block d-sm-none mt-5">
             <h2>World Clock</h2>
             <p>
               It is a long established fact that a reader will be distracted by
@@ -54,7 +60,7 @@ export default function Projects() {
             className="img-fluid d-none d-sm-block"
             alt=" AI project"
           />
-          <div className="project-description d-block d-sm-none">
+          <div className="project-description d-block d-sm-none mt-5">
             <h2>AI Poem Generator App</h2>
             <p>
               It is a long established fact that a reader will be distracted by

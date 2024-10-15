@@ -13,11 +13,17 @@ export default function Work() {
 
         <div className="row">
           <div className="col-md-6">
-            <img
-              className="img-fluid mb-3 mt-5"
-              src={weather}
-              alt="weather-app"
-            />
+            <a
+              href="https://api-weather-project.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid mb-3 mt-5 project-image"
+                src={weather}
+                alt="weather-app"
+              />
+            </a>
             <h3 className="text-center m-0">Weather Project</h3>
             <p className="text-muted mt-1 comment">
               built with HTML, CSS and JavaScript

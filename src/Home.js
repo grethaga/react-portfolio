@@ -16,7 +16,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <h3 className="custom-heading">recent projects</h3>
+      <h3 className="custom-heading my-5">recent projects</h3>
       <Projects />
       <Footer />
       <div />

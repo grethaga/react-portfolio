@@ -1,7 +1,7 @@
 import React from "react";
 import Projects from "./Projects";
 import Footer from "./Footer";
-import "./Home.css";
+import "../style/Home.css";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -19,7 +19,6 @@ function Home() {
       <h3 className="custom-heading my-5">recent projects</h3>
       <Projects />
       <Footer />
-      <div />
     </div>
   );
 }

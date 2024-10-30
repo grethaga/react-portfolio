@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import "./About.css";
+import "../style/About.css";
 
 function About() {
   return (

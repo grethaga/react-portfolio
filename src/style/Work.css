@@ -6,12 +6,11 @@
 }
 
 .Work {
-  margin-top: 100px;
   max-width: 100%;
-  margin-bottom: 100px;
+  margin: 100px 50px;
 }
 
-h1 {
+.Work h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;

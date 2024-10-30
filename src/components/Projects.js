@@ -1,36 +1,6 @@
 import React from "react";
-import "./Projects.css";
-
-const importAllImages = (parameter) =>
-  parameter
-    .keys()
-    .filter((path) => !path.includes("Profilbild.jpg"))
-    .map(parameter);
-
-const images = importAllImages(
-  require.context("./images", false, /\.(png|jpe?g|svg)$/)
-);
-
-const imageData = [
-  {
-    src: images[0],
-    href: "https://api-weather-project.netlify.app/",
-    title: "Weather App",
-    description: "Beschreibung des Wetterprojekts.",
-  },
-  {
-    src: images[1],
-    href: "https://world-clock-example.com",
-    title: "World Clock",
-    description: "Beschreibung des Weltuhrprojekts.",
-  },
-  {
-    src: images[2],
-    href: "https://ai-poem-generator.netlify.app/",
-    title: "AI Poem Generator",
-    description: "Beschreibung des KI-Gedichtgenerators.",
-  },
-];
+import "../style/Projects.css";
+import { imageData } from "./imageLoader";
 
 export default function Projects() {
   return (

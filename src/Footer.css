@@ -62,3 +62,46 @@ p {
   font-weight: 400;
   font-style: italic;
 }
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f4efea;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.social-icon i {
+  font-size: 1.2rem;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover i {
+  animation: icon-move 0.7s ease forwards;
+}
+
+@keyframes icon-move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  51% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

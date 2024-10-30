@@ -26,13 +26,15 @@ export default function Footer() {
             href="https://www.linkedin.com/in/gretha-gall-6815ba328/"
             target="_blank"
             rel="noopener noreferrer"
+            className="social-icon"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
             href="https://github.com/grethaga"
             target="_blank"
             rel="noopener noreferrer"
+            className="social-icon"
           >
             <i className="fab fa-github"></i>
           </a>

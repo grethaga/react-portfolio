@@ -17,6 +17,12 @@
   border-radius: 8px;
 }
 
+@media (max-width: 512px) {
+  .contact-box {
+    padding: 30px 50px;
+  }
+}
+
 .email-link {
   text-decoration: none;
   color: var(--primary-color);

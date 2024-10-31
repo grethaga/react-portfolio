@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="container">
+    <div className="container p-0">
       <div className="footer">
-        <div className="contact-box d-flex justify-content-between mb-5">
+        <div className="contact-box px-sm-5 justify-content-between mb-5">
           <div>
             <h4>Work Inquiry</h4>
             <p className="text-muted mb-0">Let's work togheter</p>

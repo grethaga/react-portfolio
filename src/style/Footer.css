@@ -12,14 +12,15 @@
 }
 
 .contact-box {
+  display: block;
   background-color: #f4efea;
-  padding: 30px 70px;
+  padding: 30px 20px;
   border-radius: 8px;
 }
 
-@media (max-width: 512px) {
+@media (min-width: 470px) {
   .contact-box {
-    padding: 30px 20px;
+    display: flex;
   }
 }
 
@@ -31,11 +32,6 @@
 
 .email-link:hover {
   color: var(--secondary-color);
-}
-
-.footer .contact-btn {
-  color: white;
-  background-color: var(--secondary-color);
 }
 
 .footer .contact-btn:hover {

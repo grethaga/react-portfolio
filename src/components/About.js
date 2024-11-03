@@ -11,10 +11,14 @@ function About() {
           <h1>Hi, my name is Gretha</h1>
           <h2 class="mt-3">Front-end Developer based in Vienna.</h2>
           <p class="about-text">
-            For anyone who wants to start learning code, this workshop is very
-            interesting. You will be challenged with different exercises, and
-            everything is well explained, homework and deadlines are good for
-            keep focus
+            I graduated from an HLTW specializing in tourism and business, then
+            began studying Software & Information Engineering. Along the way, I
+            briefly stepped off this path to fulfill a childhood dream by
+            opening my own restaurant, but later returned to the tech field,
+            where I discovered a real passion for front-end development through
+            a dedicated course. I'm curious, love working in a team, and am
+            excited to continue expanding my skills and knowledge in web
+            development.
           </p>
           <Link to="/work" class="btn contact-btn">
             See my projects

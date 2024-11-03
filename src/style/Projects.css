@@ -1,7 +1,39 @@
-.project-img {
-  transition: transform 0.3s ease;
+:root {
+  --primary-color: rgb(52, 55, 60);
+  --secondary-color: #990000;
+  --heading-font-family: "Raleway", sans-serif;
+  --default-font-family: "Libre Baskerville", serif;
 }
 
-.project-img:hover {
-  transform: scale(1.1);
+.project {
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+}
+
+.project:hover .project-img {
+  opacity: 0;
+}
+
+/* Overlay für die Beschreibung */
+.project-description-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  color: var(--primary-color);
+  background-color: #fbf8f5;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 10px;
+  font-size: smaller;
+}
+
+.project:hover .project-description-overlay {
+  opacity: 1;
 }

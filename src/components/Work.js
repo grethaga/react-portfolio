@@ -14,7 +14,7 @@ export default function Work() {
             <a href={project.href} target="_blank" rel="noopener noreferrer">
               <img
                 src={project.src}
-                className="img-fluid d-block project-img mb-4 pt-4 rounded"
+                className="img-fluid d-block project-image mb-4 pt-4 rounded"
                 alt={project.title}
               />
             </a>

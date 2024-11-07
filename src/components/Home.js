@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="Home p-2">
+    <div className="Home">
       <div className="hero">
         <h1>Hi, my name is Gretha</h1>
         <p className="mb-4">Front-end Developer based in Vienna.</p>

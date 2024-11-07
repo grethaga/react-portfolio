@@ -5,6 +5,10 @@
   --default-font-family: "Libre Baskerville", serif;
 }
 
+.Home {
+  margin: 0 30px;
+}
+
 .hero {
   padding: 120px 0 40px 0;
 }

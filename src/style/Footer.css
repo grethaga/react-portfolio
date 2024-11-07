@@ -24,6 +24,12 @@
   }
 }
 
+@media (min-width: 786px) {
+  .contact-box {
+    margin: 0 100px 0 100px;
+  }
+}
+
 .email-link {
   text-decoration: none;
   color: var(--primary-color);

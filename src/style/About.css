@@ -6,7 +6,13 @@
 }
 
 .About {
-  margin: 100px 30px;
+  margin: 100px 0;
+}
+
+@media (min-width: 576px) {
+  .About {
+    margin: 100px 30px;
+  }
 }
 
 .About h2 {

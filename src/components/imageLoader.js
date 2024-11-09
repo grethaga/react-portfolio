@@ -19,7 +19,7 @@ export const imageData = [
   },
   {
     src: images[2],
-    href: "https://recipes-storage.vercel.app",
+    href: "https://recipe-storage.vercel.app",
     title: "Recipe Book",
     description:
       "Built a Recipe Book app with Next.js, allowing users to browse, search, and filter recipes by category. This project demonstrates my skills in creating organized, intuitive user interfaces for efficient content exploration.",

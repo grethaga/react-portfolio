@@ -11,7 +11,7 @@ export const images = importAllImages(
 export const imageData = [
   {
     src: images[1],
-    href: "https://linas-blog.netlify.app/",
+    href: "https://linas-blog.vercel.app/",
     title: "Blog",
     description:
       "Created a blog platform with Next.js to share articles on various topics. This project showcases my ability to build interactive, user-friendly web applications.",
@@ -19,7 +19,7 @@ export const imageData = [
   },
   {
     src: images[2],
-    href: "https://recipes-storage.netlify.app",
+    href: "https://recipes-storage.vercel.app",
     title: "Recipe Book",
     description:
       "Built a Recipe Book app with Next.js, allowing users to browse, search, and filter recipes by category. This project demonstrates my skills in creating organized, intuitive user interfaces for efficient content exploration.",

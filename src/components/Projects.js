@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="container">
       <div className="row">
-        {imageData.map((project, index) => (
+        {imageData.slice(0, 3).map((project, index) => (
           <div className="col-sm project" key={index}>
             <a href={project.href} target="_blank" rel="noopener noreferrer">
               <img

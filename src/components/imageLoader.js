@@ -33,4 +33,13 @@ export const imageData = [
       "Developed a Weather App that provides real-time weather updates via API. This project highlights my ability to work with APIs and create dynamic, user-friendly interfaces.",
     tags: "HTML, CSS and JavaScript",
   },
+
+  {
+    src: images[4],
+    href: "https://shecodesplus-timezones-project.netlify.app",
+    title: "World Clock",
+    description:
+      "Developed a World Clock page that provides real-time time updates via API. This project highlights my ability to work with APIs and create dynamic, user-friendly interfaces.",
+    tags: "HTML, CSS and JavaScript",
+  },
 ];

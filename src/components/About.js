@@ -13,13 +13,14 @@ function About() {
           <h2 className="mt-3">Front-end Developer based in Vienna.</h2>
           <p className="about-text">
             I graduated from an HLTW specializing in tourism and business, then
-            began studying Software & Information Engineering. Along the way, I
-            briefly stepped off this path to fulfill a childhood dream by
-            opening my own restaurant, but later returned to the tech field,
-            where I discovered a real passion for front-end development through
-            a dedicated course. I'm curious, love working in a team, and am
-            excited to continue expanding my skills and knowledge in web
-            development.
+            began studying Software & Information Engineering. <br />
+            Along the way, I briefly stepped off this path to fulfill a
+            childhood dream by successfully opening my own restaurant, but later
+            returned to the tech field, where I discovered a real passion for
+            front-end development through a dedicated course.
+            <br />
+            I'm curious, love working in a team, and am excited to continue
+            expanding my skills and knowledge in web development.
           </p>
           <Link to="/work" className="btn contact-btn">
             See my projects

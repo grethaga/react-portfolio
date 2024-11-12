@@ -8,7 +8,7 @@ function About() {
   return (
     <div className="About">
       <div className="section d-flex gap-5">
-        <div className="">
+        <div className="text-section">
           <h1>Hi, my name is Gretha</h1>
           <h2 className="mt-3">Front-end Developer based in Vienna.</h2>
           <p className="about-text">
@@ -26,9 +26,9 @@ function About() {
             See my projects
           </Link>
         </div>
-        <div className="profile-image">
+        <div className="image-section">
           <img
-            className="img-fluid rounded h-75"
+            className="img-fluid rounded"
             src={Profilbild}
             alt="Gretha Gall"
           />

@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   margin: 0 30px 40px;
   background-color: #fbf8f5;

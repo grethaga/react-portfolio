@@ -25,16 +25,6 @@ export const imageData = [
       "Built a Recipe Book app with Next.js, allowing users to browse, search, and filter recipes by category. This project demonstrates my skills in creating organized, intuitive user interfaces for efficient content exploration.",
     tags: "Next.js and Tailwind",
   },
-
-  {
-    src: images[3],
-    href: "https://todo-list-gg.vercel.app/",
-    title: "Task Manager",
-    description:
-      "A Next.js app that allows users to add, edit, and delete tasks, with data stored in Firebase Firestore. It demonstrates cloud database integration and dynamic data management.",
-    tags: "Next.js, Firebase, Firestore, TypeScript and Tailwind",
-  },
-
   {
     src: images[4],
     href: "https://api-weather-project.netlify.app/",
@@ -42,6 +32,14 @@ export const imageData = [
     description:
       "Developed a Weather App that provides real-time weather updates via API. This project highlights my ability to work with APIs and create dynamic, user-friendly interfaces.",
     tags: "HTML, CSS and JavaScript",
+  },
+  {
+    src: images[3],
+    href: "https://todo-list-gg.vercel.app/",
+    title: "Task Manager",
+    description:
+      "A Next.js app that allows users to add, edit, and delete tasks, with data stored in Firebase Firestore. It demonstrates cloud database integration and dynamic data management.",
+    tags: "Next.js, Firebase, Firestore, TypeScript and Tailwind",
   },
 
   {

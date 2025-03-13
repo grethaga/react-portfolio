@@ -26,7 +26,15 @@ export const imageData = [
     tags: "Next.js and Tailwind",
   },
   {
-    src: images[4],
+    src: images[3],
+    href: "https://traunkirchen-rental.vercel.app",
+    title: "Rental Page",
+    description:
+      "Work in progress. Developing a Rental Page with Next.js and Tailwind. This project will feature an intuitive design for showcasing rental properties, including images, descriptions, and booking options.",
+    tags: "Next.js and Tailwind",
+  },
+  {
+    src: images[5],
     href: "https://api-weather-project.netlify.app/",
     title: "Weather App",
     description:
@@ -34,7 +42,7 @@ export const imageData = [
     tags: "HTML, CSS and JavaScript",
   },
   {
-    src: images[3],
+    src: images[4],
     href: "https://todo-list-gg.vercel.app/",
     title: "Task Manager",
     description:
@@ -43,7 +51,7 @@ export const imageData = [
   },
 
   {
-    src: images[5],
+    src: images[6],
     href: "https://shecodesplus-timezones-project.netlify.app",
     title: "World Clock",
     description:

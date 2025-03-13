@@ -30,7 +30,7 @@ export const imageData = [
     href: "https://traunkirchen-rental.vercel.app",
     title: "Rental Page",
     description:
-      "Work in progress. Developing a Rental Page with Next.js and Tailwind. This project will feature an intuitive design for showcasing rental properties, including images, descriptions, and booking options.",
+      "Work in progress. Developing a Rental Page with Next.js and Tailwind. This project will feature an intuitive design for showcasing a rental property, including images, descriptions, and booking options.",
     tags: "Next.js and Tailwind",
   },
   {

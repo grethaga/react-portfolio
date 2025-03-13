@@ -10,6 +10,14 @@ export const images = importAllImages(
 
 export const imageData = [
   {
+    src: images[3],
+    href: "https://traunkirchen-rental.vercel.app",
+    title: "Rental Page",
+    description:
+      "Work in progress. Developing a Rental Page with Next.js and Tailwind. This project will feature an intuitive design for showcasing a rental property, including images, descriptions, and booking options.",
+    tags: "Next.js and Tailwind",
+  },
+  {
     src: images[1],
     href: "https://linas-blog.vercel.app/",
     title: "Blog",
@@ -25,14 +33,7 @@ export const imageData = [
       "Built a Recipe Book app with Next.js, allowing users to browse, search, and filter recipes by category. This project demonstrates my skills in creating organized, intuitive user interfaces for efficient content exploration.",
     tags: "Next.js and Tailwind",
   },
-  {
-    src: images[3],
-    href: "https://traunkirchen-rental.vercel.app",
-    title: "Rental Page",
-    description:
-      "Work in progress. Developing a Rental Page with Next.js and Tailwind. This project will feature an intuitive design for showcasing a rental property, including images, descriptions, and booking options.",
-    tags: "Next.js and Tailwind",
-  },
+
   {
     src: images[5],
     href: "https://api-weather-project.netlify.app/",
